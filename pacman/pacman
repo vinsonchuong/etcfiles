@@ -1,0 +1,4 @@
+#!/bin/sh
+/usr/bin/reflector -l 20 --sort rate --save /etc/pacman.d/mirrorlist > /dev/null
+/usr/bin/pacman -Syy > /dev/null
+/usr/bin/cacheclean 4 > /dev/null

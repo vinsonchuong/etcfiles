@@ -1,0 +1,11 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
+LABEL=boot	/boot	ext4	defaults,noatime,discard	0	1
+LABEL=efi	/boot/efi	vfat	defaults,noatime	0	1
+LABEL=root	/	ext4	defaults,noatime,discard	0	1
+LABEL=var	/var	ext4	defaults,noatime,discard	0	1
+LABEL=home	/home	ext4	defaults,noatime,discard	0	1
+LABEL=srv	/srv	ext4	defaults,noatime	0	1

@@ -1,0 +1,6 @@
+CONNECTION='ethernet'
+DESCRIPTION='External, public interface'
+INTERFACE='eth0'
+IP='dhcp'
+DNS=('127.0.0.1' '8.8.8.8')
+
