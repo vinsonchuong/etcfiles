@@ -661,3 +661,4 @@ inet_protocols = ipv4
 
 append_dot_mydomain = no
 default_transport = Error: Local delivery only!
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated 	    defer_unauth_destination

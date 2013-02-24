@@ -11,7 +11,7 @@
 # default value.
 
 #Port 22
-#AddressFamily any
+AddressFamily inet
 #ListenAddress 0.0.0.0
 #ListenAddress ::
 
@@ -62,7 +62,7 @@ AuthorizedKeysFile	.ssh/authorized_keys
 #IgnoreRhosts yes
 
 # To disable tunneled clear text passwords, change to no here!
-PasswordAuthentication no
+#PasswordAuthentication yes
 #PermitEmptyPasswords no
 
 # Change to no to disable s/key passwords
@@ -95,7 +95,7 @@ UsePAM yes
 #X11Forwarding no
 #X11DisplayOffset 10
 #X11UseLocalhost yes
-#PrintMotd yes
+PrintMotd no # pam does that
 #PrintLastLog yes
 #TCPKeepAlive yes
 #UseLogin no
