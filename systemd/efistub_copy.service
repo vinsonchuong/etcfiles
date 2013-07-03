@@ -1,0 +1,8 @@
+[Unit]
+Description=Copy EFISTUB Kernel and Initramfs to UEFISYS Partition
+
+[Service]
+Type=oneshot
+ExecStart=/bin/cp -f /boot/vmlinuz-linux /boot/efi/arch/vmlinuz-linux.efi
+ExecStart=/bin/cp -f /boot/initramfs-linux.img /boot/efi/arch/initramfs-linux.img
+ExecStart=/bin/cp -f /boot/initramfs-linux-fallback.img /boot/efi/arch/initramfs-linux-fallback.img

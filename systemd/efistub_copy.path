@@ -1,0 +1,9 @@
+[Unit]
+Description=Copy EFISTUB Kernel and Initramfs to UEFISYS Partition
+
+[Path]
+PathChanged=/boot/initramfs-linux-fallback.img
+Unit=efistub_copy.service
+
+[Install]
+WantedBy=multi-user.target
