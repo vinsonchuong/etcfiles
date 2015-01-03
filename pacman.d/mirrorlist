@@ -1,0 +1,4 @@
+Server = https://mirrors.kernel.org/archlinux/$repo/os/$arch
+Server = http://mirror.us.leaseweb.net/archlinux/$repo/os/$arch
+Server = http://archlinux.polymorf.fr/$repo/os/$arch
+Server = http://mirror.gnomus.de/$repo/os/$arch
