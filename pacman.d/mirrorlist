@@ -1,6 +1,6 @@
 ##
 ## Arch Linux repository mirrorlist
-## Generated on 2015-07-13
+## Generated on 2015-07-31
 ##
 
 ## Worldwide
@@ -40,6 +40,7 @@
 #Server = http://archlinux.pop-es.rnp.br/$repo/os/$arch
 
 ## Bulgaria
+#Server = http://mirrors.netix.net/archlinux/$repo/os/$arch
 #Server = http://mirror.telepoint.bg/archlinux/$repo/os/$arch
 
 ## Canada
@@ -124,6 +125,7 @@
 #Server = http://archlinux.limun.org/$repo/os/$arch
 #Server = https://archlinux.limun.org/$repo/os/$arch
 #Server = http://artfiles.org/archlinux.org/$repo/os/$arch
+#Server = http://mirror5.bastelfreak.org/archlinux/$repo/os/$arch
 #Server = http://ftp.fau.de/archlinux/$repo/os/$arch
 #Server = https://ftp.fau.de/archlinux/$repo/os/$arch
 #Server = http://mirror.flipez.de/archlinux/$repo/os/$arch
@@ -285,6 +287,7 @@
 ## Sweden
 #Server = http://ftp.acc.umu.se/mirror/archlinux/$repo/os/$arch
 #Server = http://ftp.df.lth.se/pub/archlinux/$repo/os/$arch
+#Server = http://archlinux.dynamict.se/$repo/os/$arch
 #Server = http://ftp.lysator.liu.se/pub/archlinux/$repo/os/$arch
 #Server = https://ftp.lysator.liu.se/pub/archlinux/$repo/os/$arch
 #Server = http://ftp.myrveln.se/pub/linux/archlinux/$repo/os/$arch
